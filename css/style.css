@@ -11,10 +11,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html,body {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  margin: 0;
 }
 
 /*
@@ -37,6 +38,106 @@ html {
 /*
  * A better looking default horizontal rule
  */
+
+.name {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  width:max-content;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.name p {
+  margin: 0px;
+  font-size: 300%;
+
+}
+
+.top {
+
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+.top a {
+
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.top a:hover{
+
+  background-color: #888888;
+  color: green;
+}
+
+.unten {
+
+  padding: 3px;
+  background-color: #888888;
+  color: black;
+}
+
+
+.test {
+
+  margin: 0;
+}
+
+.bg-img{
+
+
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url( 'BG.jpg' );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+
+
+.text {
+
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 90%;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+
+
+
+}
 
 hr {
   display: block;
