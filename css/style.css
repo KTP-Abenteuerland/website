@@ -323,6 +323,14 @@
 
   @media only screen and (max-width: 960px) {
     /* For mobile phones: */
+    .plaetze{
+
+      width: clamp(100px, 25vw, 220px);
+      height: auto;
+      display: block;
+
+    }
+    
     .icon {
 
       display: block;
