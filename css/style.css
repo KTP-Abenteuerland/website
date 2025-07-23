@@ -322,9 +322,27 @@
 
   @media only screen and (max-width: 960px) {
     /* For mobile phones: */
+    .daten{
+
+      font-family: Verdana;
+      box-sizing: border-box;
+      border: 1px #1fbb1f solid;
+      background-size: 700px;
+
+
+    }
+    .bild{
+
+      position: absolute;
+      width: 100px;
+      margin-top: 90px;
+      right: -30px;
+    }
     .plaetze{
 
       position: absolute;
+      z-index: -1;
+      right: 0px;
       width: clamp(80px, 40vw, 100px);
 
     }
