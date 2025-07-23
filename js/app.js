@@ -1,5 +1,5 @@
 function openNav() {
-  var test = window.innerWidth*0.33;
+  var test = window.innerWidth*0.6;
   document.getElementById("mySidenav").style.width = test.toString()+"px";
 }
 

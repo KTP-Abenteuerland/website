@@ -131,8 +131,8 @@
 
   .plaetze{
 
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: -10px;
     font-family: Verdana;
     text-align: center;
     background-color: #1FBB1FFF;
@@ -185,7 +185,7 @@
 
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left:  100px;
+    margin-left:  80px;
     margin-right: 50px;
 
 
@@ -287,7 +287,7 @@
     line-height: 55px;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 10px;
     color: #000000;
     display: block;
     transition: 0.3s;
@@ -330,7 +330,6 @@
       display: block;
 
     }
-    
     .icon {
 
       display: block;
