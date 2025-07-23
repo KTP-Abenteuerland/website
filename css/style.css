@@ -283,7 +283,9 @@
   .sidenav a {
 
     font-family: Verdana;
-    line-height: 55px;
+    line-height: 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
