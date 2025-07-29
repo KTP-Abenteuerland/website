@@ -103,7 +103,7 @@
     text-align: center;
     color: black;
     padding: 14px 16px;
-    font-size: 20px;
+    font-size: clamp(12px, 1vw, 20px);
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -140,7 +140,7 @@
     background-color: #1FBB1FFF;
     color: white;
     padding: 14px 16px;
-    font-size: 20px;
+    font-size: clamp(12px, 1vw, 20px);
     text-decoration: none;
     margin-left: 20px;
     margin-top: 20px;
@@ -195,7 +195,7 @@
   .logob{
 
 
-    width: clamp(100px, 25vw, 220px);
+    width: clamp(50px, 12vw, 220px);
     height: auto;
     display: block;
   }
@@ -362,7 +362,7 @@
     .nav
     {
       border-bottom:0px #d1d1d1 solid;
-      box-shadow: 0px 1px 1px grey;
+      box-shadow: 0px 0px 0px grey;
 
     }
 
