@@ -100,7 +100,7 @@
 
     background-color: rgba(31, 187, 31, 0.3);
     color: black;
-    transition: 0.3s
+    transition: 0.7s
   }
 
   .active {
@@ -121,7 +121,7 @@
     color: black;
     padding-right: clamp(8px, 1vw, 16px);
     padding-left: clamp(8px, 1vw, 16px);
-    padding-top: clamp(7px, 1vw, 24px);
+    padding-top: clamp(7px, 1vw, 14px);
     padding-bottom: clamp(8px, 1vw, 16px);
     font-size: clamp(12px, 1vw, 20px);
     text-decoration: none;
@@ -140,11 +140,15 @@
     font-family: Verdana;
     right: 10px;
     text-align: center;
-    background-color: #1FBB1FFF;
-    color: white;
-    padding: 14px 16px;
+    padding-right: clamp(8px, 1vw, 16px);
+    padding-left: clamp(8px, 1vw, 16px);
+    padding-top: clamp(7px, 1vw, 14px);
+    padding-bottom: clamp(8px, 1vw, 16px);
+    background-color: #1fbb1f;
+    color: #ffffff;
     font-size: clamp(12px, 1vw, 20px);
     text-decoration: none;
+    font-weight: bold;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -338,14 +342,14 @@
 
   }
 
-  @media only screen and (max-width: 1400px){
+  @media only screen and (max-width: 1400px) {
 
     .top a {
 
       margin-left: 1px;
       margin-right: 1px;
 
-    }
+    }  }
 
   @media only screen and (max-width: 960px) {
     /* For mobile phones: */
@@ -384,7 +388,7 @@
     .nav
     {
       border-bottom:0px #d1d1d1 solid;
-      box-shadow: 0px 0px 0px grey;
+      box-shadow: 0px 1px 5px grey;
 
     }
 
