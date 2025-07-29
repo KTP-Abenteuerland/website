@@ -91,25 +91,7 @@
 
   .top {
 
-    display: flex;
-
-
-  }
-
-  .top a {
-
-
-    font-family: Verdana;
-    text-align: center;
-    color: black;
-    padding: 14px 16px;
-    font-size: clamp(12px, 1vw, 20px);
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 3;
+    display: block;
 
 
   }
@@ -127,6 +109,27 @@
     color: white;
 
 
+
+
+  }
+
+  .top a {
+
+
+    font-family: Verdana;
+    text-align: center;
+    color: black;
+    padding-right: clamp(8px, 1vw, 16px);
+    padding-left: clamp(8px, 1vw, 16px);
+    padding-top: clamp(7px, 1vw, 24px);
+    padding-bottom: clamp(8px, 1vw, 16px);
+    font-size: clamp(12px, 1vw, 20px);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    line-height: 3;
 
 
   }
@@ -324,6 +327,25 @@
 
   }
 
+  @media only screen and (max-width: 1650px){
+
+    .top a {
+
+      margin-left: 5px;
+      margin-right: 5px;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 1400px){
+
+    .top a {
+
+      margin-left: 1px;
+      margin-right: 1px;
+
+    }
 
   @media only screen and (max-width: 960px) {
     /* For mobile phones: */
@@ -386,15 +408,7 @@
       }
     }
 
-  @media only screen and (min-width: 961px) {
 
-      .top {
-
-        display: block;
-
-      }
-
-    }
 
 
   /*
