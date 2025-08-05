@@ -16,6 +16,8 @@
     font-size: 1em;
     line-height: 1.4;
     margin: 0;
+    font-family: Verdana;
+    scroll-behavior: smooth;
   }
 
   /*
@@ -154,6 +156,94 @@
     margin-bottom: 20px;
 
   }
+
+  .main {
+
+    margin-top: 200px;
+    font-family: Verdana;
+
+
+  }
+
+  .main h2 {
+
+    text-align: left;
+    font-size: 30px;
+    background-color: #1fbb1f;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 4px;
+    margin-left: -20px;
+    width: 700px;
+    border-radius: 20px;
+
+  }
+
+  .main p{
+
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 1px 5px grey;
+    padding: 15px;
+    width: 1200px;
+
+    margin-left: 50px;
+
+  }
+
+
+  .zeiten{
+
+    text-align: center;
+    background-color: #1fbb1f;
+    padding: 5px;
+    padding-right: 70px;
+    padding-left: 4px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: -150px;
+
+    width: 700px;
+    border-radius: 20px;
+
+  }
+
+  .besonders{
+
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+  .besonders h2{
+
+    text-align: left;
+    font-size: 30px;
+    background-color: #1fbb1f;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 4px;
+    margin-left: -20px;
+    width: 700px;
+    border-radius: 20px;
+
+  }
+
+
+  .besonders a{
+
+    display: inline-block;
+
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0px 1px 5px grey;
+    margin: 15px;
+    padding:15px;
+
+    line-height: 50px;
+
+  }
+
 
 
   .unten {
