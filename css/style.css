@@ -130,6 +130,21 @@
 
   }
 
+  .ueberschrift h2 {
+
+    text-align: left;
+    font-size: clamp(15px, 1.5vw, 30px);
+    background-color: #1fbb1f;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 4px;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    width: 35%;
+    border-radius: 20px;
+
+  }
+
   .main h2 {
 
     text-align: left;
