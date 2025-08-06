@@ -43,6 +43,8 @@
    * A better looking default horizontal rule
    */
 
+
+
   .nav{
     display: flex;
     align-items: center;
@@ -53,6 +55,7 @@
     overflow: hidden;
     border-bottom:0 #d1d1d1 solid;
     box-shadow: 0 1px 5px grey;
+    z-index: 10;
   }
 
   .nav #top{
@@ -150,7 +153,7 @@
     text-align: left;
     font-size: clamp(15px, 1.5vw, 30px);
     background-color: #1fbb1f;
-    padding: 5px;
+    padding: 20px;
     padding-left: 70px;
     padding-right: 4px;
     margin-left: -20px;
@@ -172,6 +175,12 @@
 
   }
 
+  .fotogalerie {
+
+    z-index: -6;
+
+  }
+
   .beispielbild {
 
     display: flex;
@@ -188,6 +197,60 @@
 
   }
 
+  .recht {
+
+    position: relative;
+    z-index: -1;
+
+  }
+
+  .recht h2 {
+
+    text-align: left;
+    position: relative;
+    font-size: clamp(15px, 1.5vw, 30px);
+    background-color: #1fbb1f;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin-left: -20px;
+    margin-bottom: 100px;
+    width: 35%;
+    border-radius: 20px;
+  }
+
+  .recht p {
+
+    font-size: clamp(12px, 1vw, 20px);
+    background-color: white;
+    box-shadow: 0 1px 5px grey;
+    padding: 15px;
+    margin-top: 0;
+    width: 80%;
+
+    margin-left: 20px;
+
+  }
+  .hallo {
+
+    position: relative;
+
+
+  }
+
+  .hallo img {
+
+    display: block;
+    width: 40%;
+    margin: 0;
+    margin-left: 60%;
+    margin-top: -250px;
+    padding: 0;
+    border: none;
+
+  }
+
+
 
   .overflow{
 
@@ -201,7 +264,7 @@
     float: right;
     text-align: center;
     background-color: #1fbb1f;
-    padding: 15px;
+    padding-bottom: 20px;
     padding-top: 0;
     padding-left: 10px;
     padding-right: 20px;
@@ -251,9 +314,9 @@
     text-align: left;
     font-size: clamp(15px, 1.5vw, 30px);;
     background-color: #1fbb1f;
-    padding: 5px;;
+    padding: 20px;;
     padding-left: 60px;
-    padding-right: 4px;
+    padding-right: 10px;
     margin-left: -100px;
     margin-bottom: 70px;
     width: 35%;
@@ -285,31 +348,6 @@
   }
 
 
-  .recht h2 {
-
-    text-align: left;
-    font-size: clamp(15px, 1.5vw, 30px);
-    background-color: #1fbb1f;
-    padding: 5px;
-    padding-left: 70px;
-    padding-right: 4px;
-    margin-left: -20px;
-    margin-bottom: 50px;
-    width: 35%;
-    border-radius: 20px;
-  }
-
-  .recht p {
-
-    font-size: clamp(12px, 1vw, 20px);
-    background-color: white;
-    box-shadow: 0 1px 5px grey;
-    padding: 15px;
-    width: 80%;
-
-    margin-left: 20px;
-
-  }
 
   .line {
 
@@ -561,21 +599,29 @@
 
     .recht h2 {
 
-      width: 80%;
+      padding-right: 50px;
       font-size: 20px;
+      margin-bottom: 50px;
 
 
     }
 
     .recht {
 
-      margin-bottom: 50px;
+      margin-bottom: 30px;
 
     }
 
     .recht p {
 
       font-size: 15px;
+
+
+    }
+
+    .hallo img {
+
+      display: none;
 
     }
 
