@@ -121,9 +121,11 @@
     font-size: clamp(12px, 1vw, 20px);
     text-decoration: none;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+
 
   }
 
@@ -380,7 +382,7 @@
     background-color: rgba(255, 255, 255, 0.7);
     padding:0;
     padding-top:20px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 
   }
 
@@ -695,6 +697,18 @@
 
     }
 
+    .rechts h2{
+
+      font-size: 20px;
+
+    }
+
+    .rechts p {
+
+      font-size: 15px;
+
+    }
+
     .hallo img {
 
       display: none;
@@ -724,7 +738,7 @@
     .besonders a{
       display: block;
       font-size: 15px;
-      margin: 15;
+      margin: 15px;
 
     }
 

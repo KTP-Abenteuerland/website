@@ -1,0 +1,182 @@
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+
+  z-index: -1;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  display: grid;
+  grid-template-columns: 4vw 1fr 2fr; /* Links:Mitte:Rechts */
+  width: 100%;
+
+
+}
+
+.containerbetang {
+
+  z-index: -1;
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Links:Mitte:Rechts */
+  width: 100%;
+
+
+
+}
+
+/* Hide the images by default */
+.mySlides, .mySlides2 {
+  display: none;
+  text-align: center;
+  width: 27.5vw;
+  margin: 0  0 auto;
+  padding-top: 0.7vw;
+  padding-bottom: 4vw;
+  box-shadow: 0 1px 5px grey;
+
+}
+.mySlides img , .mySlides2 img {
+  max-width: 26vw;
+
+}
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+.row {
+
+  margin: 25%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 5vw);
+  gap: 5px;
+
+  padding: 0;
+
+}
+
+.row:after {
+  content: "";
+  clear: both;
+}
+
+.mid{
+
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+
+
+
+}
+
+
+.left {
+
+
+
+}
+
+/* Six columns side by side */
+.column {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.column img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo, .demo2 {
+
+  opacity: 0.6;
+  width: 5vw;
+
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+  transition: 0.7s
+}
+
+
+@media only screen and (max-width: 960px) {
+  /* For mobile phones: */
+.fotogalerie{
+
+
+}
+
+  .mySlides,.mySlides2 {
+
+    width: 52vw;
+
+
+  }
+
+  .mySlides img , .mySlides2 img {
+
+    max-width: 50vw;
+
+  }
+
+  .demo2,.demo {
+
+    width: 10vw;
+
+  }
+
+  div#mid{order:1;}
+  div#right{order: 2;}
+  div#left{order: 3;}
+  div#mid2{order: 1;}
+  div#right2{order: 2;}
+
+
+
+  .container{
+
+    grid-template-columns: none;
+    margin-bottom: 0;
+
+
+
+  }
+  .row{
+
+    margin: 15%;
+    grid-template-columns: repeat(auto-fit, 10vw);
+
+  }
+
+  .containerbetang {
+
+    grid-template-columns: none;
+
+  }
+
+  .left{
+
+    margin-top: -30%;
+
+  }
+
+
+
+}
