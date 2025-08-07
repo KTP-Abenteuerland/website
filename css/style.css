@@ -700,12 +700,14 @@
     .rechts h2{
 
       font-size: 20px;
+      width: 60%;
 
     }
 
     .rechts p {
 
       font-size: 15px;
+      width: 80%;
 
     }
 
@@ -768,7 +770,7 @@
 
       position: absolute;
       z-index: -1;
-      right: 0;
+      margin-right: 0;
       width: clamp(50px, 30vw, 100px);
       font-size: 20px;
 
