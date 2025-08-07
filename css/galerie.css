@@ -125,14 +125,16 @@
 
   .mySlides,.mySlides2 {
 
-    width: 52vw;
+    width: 76vw;
+    padding-top: 3vw;
+    padding-bottom: 12vw;
 
 
   }
 
   .mySlides img , .mySlides2 img {
 
-    max-width: 50vw;
+    max-width: 70vw;
 
   }
 
