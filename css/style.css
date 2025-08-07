@@ -722,9 +722,6 @@
 
     .besonders a{
 
-      display: grid;
-      grid-template-columns: auto;
-
       font-size: 15px;
     }
 
