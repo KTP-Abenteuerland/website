@@ -215,6 +215,12 @@
 
   }
 
+  .uebermich {
+
+    display: none;
+
+  }
+
   .fotogalerie {
 
     z-index: -6;
@@ -661,6 +667,23 @@
 
   @media only screen and (max-width: 960px) {
     /* For mobile phones: */
+
+
+    .uebermich {
+
+      display: block;
+      text-align: center;
+
+
+    }
+
+    .uebermich img{
+
+      margin-top: -18px;
+      width: 80vw;
+      box-shadow: 0 1px 5px grey;
+
+    }
 
     .luecke {
 
