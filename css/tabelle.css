@@ -1,0 +1,71 @@
+.tabellencon {
+
+  text-align: left;
+  margin:100px 100px 0 100px;
+
+}
+
+.tg {
+
+  width: 100%;
+  border-collapse: inherit;
+  border-spacing:0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+
+}
+
+.tg-1{
+
+  width: 20%;
+
+}
+
+.tag, .thema {
+
+  width: 15%;
+
+}
+
+.tg td, .tg th{
+
+
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Verdana, sans-serif;
+  font-size: 1.7vw;
+  overflow:hidden;
+  padding:5px;
+
+  font-weight:normal;
+
+}
+
+
+@media only screen and (max-width: 960px) {
+  /* For mobile phones: */
+
+  .tg td, .tg th{
+
+    font-size: 12px;
+
+
+
+  }
+
+  .tg-lax{
+
+    width: 40%;
+
+  }
+
+  .tabellencon {
+
+    text-align: left;
+    margin:100px 25px 0 25px;
+
+  }
+
+}
