@@ -135,12 +135,12 @@
 
   }
 
-  .ueberschrift h2 {
+  .ueberschrift h1 {
 
     text-align: left;
     font-size: clamp(15px, 1.5vw, 30px);
     background-color: #1fbb1f;
-    padding: 50px;
+    padding: 20px;
     padding-left: 70px;
     padding-right: 4px;
     margin-left: -20px;
