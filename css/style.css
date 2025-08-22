@@ -506,14 +506,14 @@
     color: black;
   }
 
- .daten
+  .daten
   {
 
     box-sizing: border-box;
     border: 1px #1fbb1f solid;
     background-image: url("karte.png");
-    background-size: 670px;
-    margin-bottom: -10px;
+    padding-bottom: 100px;
+    margin-bottom: -90px;
   }
 
   .imp
