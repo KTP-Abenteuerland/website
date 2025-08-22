@@ -505,13 +505,15 @@
     background-color: rgb(31, 187, 31);
     color: black;
   }
-  .daten
+
+ .daten
   {
 
     box-sizing: border-box;
     border: 1px #1fbb1f solid;
     background-image: url("karte.png");
     background-size: 670px;
+    margin-bottom: -10px;
   }
 
   .imp
