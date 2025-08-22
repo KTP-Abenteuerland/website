@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/tabelle.css">
   <script src="js/app.js"></script>
+  <script src="https://kit.fontawesome.com/212078f2f5.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -15,6 +16,7 @@
 
 <div class="nav">
   <a href="javascript:void(0);" class="icon" onclick="openNav()"; style="font-size:30px;cursor:pointer"> &#9776; </a>
+  <a href="#" class="sicon" onclick="openSpr()" style="font-size:30px;cursor:pointer"> <i class="fa-solid fa-globe"></i></a>
   <a href="index.html"class="logo"><img class="logob" src="css/KTP.png">
   </a>
   <div id="top" class="top">
@@ -28,6 +30,8 @@
     <a href="tagesablauf.html">Tagesablauf</a>
     <a class="active" href="kosten.html">Kosten</a>
     <a href="kontakt.html">Kontakt</a>
+
+    <a href="#" onclick="openSearch()"><i class="fa-solid fa-globe"></i></a>
 
 
   </div>
@@ -47,7 +51,28 @@
     <a href="kontakt.html">Kontakt</a>
   </div>
 
+ <div id="sprache" class="sprache">
+
+    <a href="#" class="closebtn" onclick="closeSpr()">&times;</a>
+    <a class="active" href="index.html"> <img src="https://flagcdn.com/w20/de.png" srcset="https://flagcdn.com/w40/de.png 2x" width="20" alt="Germany"> Deutsch</a>
+    <a href="indexRu.html"> <img src="https://flagcdn.com/w20/ru.png" srcset="https://flagcdn.com/w40/ru.png 2x" width="20" alt="Russia"> Russisch</a>
+
+  </div>
+
 </div>
+
+<div id="myOverlay" class="overlay">
+
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="sprachknopf">
+
+    <a class="active" href="index.html" onclick="closeSearch()"> <img src="https://flagcdn.com/w20/de.png" srcset="https://flagcdn.com/w40/de.png 2x" width="20" alt="Germany"> Deutsch</a>
+    <a href="indexRu.html" onclick="closeSearch()"><img src="https://flagcdn.com/w20/ru.png" srcset="https://flagcdn.com/w40/ru.png 2x" width="20" alt="Russia"> Russisch</a>
+
+  </div>
+
+</div>
+
 
 <div class="luecke"></div>
 
